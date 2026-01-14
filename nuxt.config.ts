@@ -1,5 +1,5 @@
 import { createResolver } from 'nuxt/kit'
-// import { generateSwaggerTypes } from './scripts/generate-swagger-types'
+import { generateSwaggerTypes } from './scripts/generate-swagger-types'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const extendOptions = { auth: import.meta.env.VITE_GITHUB_TOKEN }
@@ -88,7 +88,7 @@ export default defineNuxtConfig({
 
   hooks: {
     'build:before': async () => {
-      // await generateSwaggerTypes()
+      await generateSwaggerTypes()
     },
   },
 
