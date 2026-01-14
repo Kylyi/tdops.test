@@ -1,0 +1,26 @@
+{
+  "externalLinks": [
+    {
+      "name": "Документација",
+      "link": "https://docs.nil.rs/jafin-ng",
+      "icon": "i-material-symbols-light:docs-outline-rounded"
+    }
+  ],
+  "domain": "",
+  "api": {
+    "root": "",
+    "iam": "",
+    "jafinApi": "",
+    "help": "https://docs.nil.rs/jafin-ng/user"
+  },
+  "sessionTimeoutMinutes": 30,
+  "locale": "en",
+  "version": "2025-07-17",
+  "confirmation": {
+    "editable": false,
+    "enabled": true,
+    "required": false
+  },
+  "reportDownloadCountdown": 3,
+  "environmentColor": ""
+}

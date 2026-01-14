@@ -1,4 +1,16 @@
 export enum ComparatorEnum {
+  // Date
+  AGO = 'ago',
+  NOT_AGO = 'not.ago',
+  UNTIL = 'for',
+  NOT_UNTIL = 'not.for',
+  // Complex
+  INCLUDES = 'incl',
+  EXCLUDES = 'excl',
+  STARTS_WITH_IN = 'stw.in',
+  NOT_STARTS_WITH_IN = 'not.stw.in',
+}
+export enum ComparatorEnum {
   // Shared
   EQUAL = 'eq',
   NOT_EQUAL = 'not.eq',

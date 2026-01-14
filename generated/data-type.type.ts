@@ -1,5 +1,11 @@
 
 export type DataType =
+| 'int'
+| 'long'
+| 'double'
+| 'DateTime'
+| 'array'
+| 'decimal'
 | 'string'
 | 'number'
 | 'percent'

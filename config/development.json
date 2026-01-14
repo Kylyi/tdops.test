@@ -1,0 +1,26 @@
+{
+  "externalLinks": [
+    {
+      "name": "Документација",
+      "link": "https://docs.knowit.rs/jafin-ng/pp/dom/",
+      "icon": "i-material-symbols-light:docs-outline-rounded"
+    }
+  ],
+  "domain": "",
+  "api": {
+    "root": "",
+    "iam": "",
+    "jafinApi": "",
+    "help": "https://docs.knowit.rs/jafin-ng/pp/dom/"
+  },
+  "sessionTimeoutMinutes": 0,
+  "locale": "en",
+  "version": "2025-07-17",
+  "confirmation": {
+    "editable": true,
+    "enabled": false,
+    "required": false
+  },
+  "reportDownloadCountdown": 3,
+  "environmentColor": "#559e83"
+}
